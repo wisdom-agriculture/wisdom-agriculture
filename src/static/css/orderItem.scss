@@ -1,0 +1,81 @@
+.orderItem {
+    border-radius: 30rpx;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10rpx 0 rgb(234, 232, 232);
+    border: 4rpx solid rgb(255, 255, 255);
+    margin: 10rpx 30rpx 20rpx;
+    .top {
+      .shopName {
+        padding: 15rpx 20rpx 0;
+        font-size: 34rpx;
+      }
+      .time {
+        padding: 10rpx 16rpx;
+        color: rgb(162, 159, 159);
+        font-size: 26rpx;
+        letter-spacing: 1rpx;
+      }
+      border-bottom: 2rpx solid rgb(238, 237, 237);
+    }
+    .middle {
+      padding: 20rpx 20rpx;
+      .item {
+        display: flex;
+        height: 200rpx;
+        .con {
+          letter-spacing: 1rpx;
+          margin-left: 30rpx;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          padding-bottom: 15rpx;
+          .name {
+            color: #62a85b;
+            font-size: 28rpx;
+          }
+          .kilo {
+            font-size: 24rpx;
+          }
+        }
+        .dbcon{
+          display: flex;
+          justify-content: space-around;
+        }
+      }
+    }
+  
+    .addr {
+      width: 180rpx;
+      height: 40rpx;
+      line-height: 40rpx;
+      border-radius: 8px;
+      background-color: rgb(239, 250, 237);
+      color: rgb(43, 158, 11);
+      font-size: 20rpx;
+      text-align: center;
+      font-family: Arial;
+      border: 1px solid rgb(210, 242, 202);
+    }
+    .bottom {
+      border-top: 2rpx solid rgb(238, 237, 237);
+      display: flex;
+      align-items: center;
+      padding: 15rpx 40rpx;
+      justify-content: space-around;
+      .custom-style {
+        font-size: 25rpx !important;
+        width: 170rpx !important;
+        height: 50rpx;
+        padding: 20rpx !important;
+        color: black !important;
+        border: 2rpx solid #bcbcbf !important;
+        border-radius: 10rpx;
+        letter-spacing: 2rpx;
+      }
+      .custom-style:last-child {
+        color: white !important;
+        border: 2rpx solid #ff913a !important;
+      }
+    }
+ 
+  }

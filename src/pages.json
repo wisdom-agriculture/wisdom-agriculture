@@ -1,0 +1,334 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "智慧农业",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/informed/index",
+			"style": {
+				"navigationBarTitleText": "用户隐私协议"
+			}
+		},
+		{
+			"path": "pages/register/index",
+			"style": {
+				"navigationBarTitleText": "注册页"
+			}
+		},
+		{
+			"path": "pages/personal/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/planting/index",
+			"style": {
+				"navigationBarTitleText": "index",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/planting/attention",
+			"style": {
+				"navigationBarTitleText": "attention",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/planting/release",
+			"style": {
+				"navigationBarTitleText": "release",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/follow/index",
+			"style": {
+				"navigationBarTitleText": "粉丝",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/thumbUpCircle/index",
+			"style": {
+				"navigationBarTitleText": "我的点赞",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/shippingAddress/index",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/shippingAddress/editAddr",
+			"style": {
+				"navigationBarTitleText": "编辑收货地址",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/shippingAddress/addAddr",
+			"style": {
+				"navigationBarTitleText": "新增收货地址",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/myCircle/index",
+			"style": {
+				"navigationBarTitleText": "我的圈子",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/myMessage/index",
+			"style": {
+				"navigationBarTitleText": "我的消息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/landParcdl/index",
+			"style": {
+				"navigationBarTitleText": "地块管理"
+			}
+		},
+		{
+			"path": "pages/landParcelDetails/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/agriculturalOperations/index",
+			"style": {
+				"navigationBarTitleText": "农事操作记录"
+			}
+		},
+		{
+			"path": "pages/dailyCrops/index",
+			"style": {
+				"navigationBarTitleText": "每日作物推荐"
+			}
+		},
+		{
+			"path": "pages/mall/index",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mall/goodsDetails/index",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/origins/index",
+			"style": {
+				"navigationBarTitleText": "产品溯源",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/orderForm/index",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/specialist/index",
+			"style": {
+				"navigationBarTitleText": "专家咨询"
+			}
+		},
+		{
+			"path": "pages/priceQuotations/index",
+			"style": {
+				"navigationBarTitleText": "价格行情"
+			}
+		},
+		{
+			"path": "pages/farmMap/index",
+			"style": {
+				"navigationBarTitleText": "农场地图",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/userInfoChange/index",
+			"style": {
+				"navigationBarTitleText": "修改信息"
+			}
+		},
+		{
+			"path": "pages/hisCircle/index",
+			"style": {
+				"navigationBarTitleText": "hisCircle",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/contentDetail/index",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/attention/index",
+			"style": {
+				"navigationBarTitleText": "关注",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/beLoved/index",
+			"style": {
+				"navigationBarTitleText": "点赞",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/beAited/index",
+			"style": {
+				"navigationBarTitleText": "@我的",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/beRemarked/index",
+			"style": {
+				"navigationBarTitleText": "评论",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/detailMsg/index",
+			"style": {
+				"navigationBarTitleText": "消息详情",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/mallMsgDetail/index",
+			"style": {
+				"navigationBarTitleText": "商城消息",
+				"navigationStyle": "default",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/originsDetail/index",
+			"style": {
+				"navigationBarTitleText": "溯源信息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/goodsFlu/index",
+			"style": {
+				"navigationBarTitleText": "物流信息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/shopDetail/index",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/mall/cart/index",
+			"style": {
+				"navigationBarTitleText": "cart",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mall/favorites/index",
+			"style": {
+				"navigationBarTitleText": "favorites",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mall/firmOrder/index",
+			"style": {
+				"navigationBarTitleText": "firmOrder",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		// "navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#333",
+		"selectedColor": "#333",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "60px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "2px",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/ghome.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/planting/index",
+				"iconPath": "static/icon/plant.png",
+				"selectedIconPath": "static/icon/gplant.png",
+				"text": "种植圈"
+			},
+			{
+				"pagePath": "pages/personal/index",
+				"iconPath": "static/icon/user.png",
+				"selectedIconPath": "static/icon/guser.png",
+				"text": "我的"
+			}
+		]
+	}
+}
