@@ -1,0 +1,43 @@
+<template>
+    <div>
+        <div>
+            商品名称
+        </div>
+        <div>
+            <a-input></a-input>
+        </div>
+        <div>
+            商品价格（元）
+        </div>
+        <div>
+            <a-input></a-input>
+        </div>
+        <div>
+            商品数量
+        </div>
+        <div>
+            <a-input></a-input>
+        </div>
+        <div>
+            产地/所在地
+        </div>
+        <div>
+            <a-input></a-input>
+        </div>
+        <div>
+            联系电话
+        </div>
+        <div>
+            <a-input></a-input>
+        </div>
+        <div>
+            商品分类
+        </div>
+        <div>
+            <a-radio-group>
+                <a-radio :value="'products'">农产品</a-radio>
+                <a-radio :value="'plot'">可租用地块</a-radio>
+            </a-radio-group>
+        </div>
+    </div>
+</template>
