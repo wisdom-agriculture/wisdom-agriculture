@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: IntelligentFarmingBackEnd
+  profiles:
+    active: prod
+  security:
+    user:
+      name: intelligent
+      password: farming
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+
+lark:
+  dev: true
+  url: 
+
+swagger:
+  enable: true
+  application-name: ${spring.application.name}
+  application-version: 1.0
+  application-description: springfox swagger3
+  try-host: http://localhost:${server.port}
+
+
+alipay:
+  appId: 
+  appPrivateKey: 
+  alipayPublicKey: 
+  notifyUrl: 
